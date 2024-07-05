@@ -3,22 +3,27 @@ import {
   Route,
   RouterProvider,
   createBrowserRouter,
-  BrowserRouter,
   createRoutesFromElements,
 } from "react-router-dom"
 
-import Root from "./componants/Root"
+import Root, {
+  loader as rootLoader,
+  action as rootAction,
+} from "./componants/Root"
+import Notes from "./componants/Notes"
+import Note, { loader as noteLoader } from "./componants/Note"
 
-const router = createBrowserRouter(createRoutesFromElements(<Route></Route>))
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" loader={rootLoader} action={rootAction} element={<Root />}>
+      <Route index element={<Notes />} />
+      <Route path="note/:id" loader={noteLoader} element={<Note />} />
+    </Route>
+  )
+)
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
-    <>
-      <Root />
-    </>
-  )
+  return <RouterProvider router={router} />
 }
 
 export default App
