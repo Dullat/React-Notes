@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "title": "About",
+    "note": "All the notes are being fetch from a json server",
+    "date": "5-7-24"
+  }
+]
