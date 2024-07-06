@@ -95,7 +95,7 @@ const Root = () => {
             ))}
           </ul>
         </div>
-        <div className="">
+        <div className="bg-slate-400">
           <Outlet />
         </div>
       </div>

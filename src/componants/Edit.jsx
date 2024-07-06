@@ -47,44 +47,80 @@ const Edit = () => {
     getNote()
   }, [id])
   return (
-    <div>
-      <p>Update Note</p>
+    <div className="p-4">
+      <p className="text-2xl font-bold mb-4">Update Note</p>
       {loading ? (
         <p>Loading</p>
       ) : (
-        <Form method="post">
-          <div>
-            <label htmlFor="title">Title</label>
+        <Form
+          method="post"
+          className="flex flex-col gap-4 max-w-2xl bg-zinc-50 p-4 rounded-xl shadow-sm"
+        >
+          <div className="flex flex-col gap-1">
+            <label htmlFor="title">Title:</label>
             <input
               type="text"
               name="title"
               id="title"
-              placeholder={note.title}
+              value={note.title}
+              className="border-solid border-2 bg-slate-400 rounded-md px-2"
             />
           </div>
-          <div>
-            <label htmlFor="date">Date</label>
-            <input type="text" name="date" id="date" placeholder={note.date} />
+          <div className="flex flex-col gap-1">
+            <label htmlFor="date">Date:</label>
+            <input
+              type="text"
+              name="date"
+              id="date"
+              value={note.date}
+              className="border-solid border-2 bg-slate-400 rounded-md px-2"
+            />
           </div>
-          <div>
-            <label htmlFor="des">Description</label>
-            <input type="text" name="des" id="des" placeholder={note.des} />
+          <div className="flex flex-col gap-1">
+            <label htmlFor="des">Description:</label>
+            <input
+              type="text"
+              name="des"
+              id="des"
+              value={note.des}
+              className="border-solid border-2 bg-slate-400 rounded-md px-2"
+            />
           </div>
-          <div>
-            <label htmlFor="text">Text</label>
-            <input type="text" name="text" id="text" placeholder={note.text} />
+          <div className="flex flex-col gap-1">
+            <label htmlFor="text">Text:</label>
+            <textarea
+              type="text"
+              name="text"
+              id="text"
+              value={note.text}
+              className="border-solid border-2 bg-slate-400 rounded-md px-2"
+            />
           </div>
-          <div>
+          <div className="flex flex-col gap-1">
             <label htmlFor="id">ID</label>
             <input
               type="text"
               name="id"
               id="id"
-              placeholder={note.id}
+              value={note.id}
               disabled
+              className="border-solid border-2 bg-slate-400 rounded-md opacity-50 px-2"
             />
           </div>
-          <button type="submit">btn</button>
+          <div className="flex justify-around">
+            <button
+              type="submit"
+              className="bg-slate-400 rounded-md mt-4 m-auto px-4 py-1"
+            >
+              Update
+            </button>
+            <button
+              type="submit"
+              className="bg-slate-400 rounded-md mt-4 m-auto px-4 py-1"
+            >
+              Delete
+            </button>
+          </div>
         </Form>
       )}
     </div>
