@@ -1,185 +1,25 @@
 {
   "notes": [
     {
-      "id": "1",
-      "title": "About",
-      "des": "abot this project",
-      "text": "All the notes are being fetch from a json server",
-      "date": "5-7-24"
+      "title": "New note",
+      "date": "1720285584714",
+      "des": "Description",
+      "text": "write your notes here.",
+      "id": "26e43986-65f9-4260-b66e-5d026929623a"
     },
     {
-      "id": "2",
-      "title": "About",
-      "des": "abot this project",
-      "text": "All the notes are being fetch from a json server",
-      "date": "5-7-24"
+      "id": "707f54cb-4fb4-40f6-b156-f2848617195d",
+      "title": "New note",
+      "des": "Description",
+      "text": "write your notes here.",
+      "date": 1720286625723
     },
     {
-      "id": "1da7cd32-0e8e-4d0d-b679-cdfaab57079a",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720200815705
-    },
-    {
-      "title": "sfg",
-      "des": "gfs",
-      "text": "sfg",
-      "id": "67db0380-915c-4096-9e4e-c214e4d05ffd"
-    },
-    {
-      "id": "5ac4aa32-b741-4f55-b901-dc3e0e87d259",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720206105130
-    },
-    {
-      "id": "24a087fa-ae62-4620-b88e-f89a837f2904",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720206161544
-    },
-    {
-      "id": "c33d0024-18f5-483e-86ef-bae005d74b81",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720206385305
-    },
-    {
-      "id": "fcef5052-df3e-4313-ae5f-ce1ce7653648",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720206515790
-    },
-    {
-      "title": "new update",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "99eee5e6-29a5-46a1-b851-133b3976c813"
-    },
-    {
-      "title": "avother",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "624e0a86-e4cc-4caf-9cca-f242bb45d794"
-    },
-    {
-      "title": "sfg",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "e9e8cc83-8a90-4acb-b325-6126bd992879"
-    },
-    {
-      "title": "game",
-      "date": "67-8-90",
-      "des": "idk ",
-      "text": "isk what to write here",
-      "id": "66d9d8e5-8b90-4d3e-9d33-791e9404b2f7"
-    },
-    {
-      "title": "",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "ed7b4418-79eb-425c-976b-4c1c544c8491"
-    },
-    {
-      "title": "",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "81b36d7d-768f-4f5d-a82d-99a11e7800ff"
-    },
-    {
-      "title": "gh",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "eea386e6-9523-4121-aba5-07ab342d9319"
-    },
-    {
-      "title": "new",
-      "date": "89",
-      "des": "jhg",
-      "text": "hgv hjg hjg ",
-      "id": "8c898c11-74eb-4a12-b9db-540fe7a08f4d"
-    },
-    {
-      "title": "",
-      "date": "",
-      "des": "",
-      "text": "",
-      "id": "c350e20d-10af-4829-a46f-0ee339bd9818"
-    },
-    {
-      "title": "fhgj",
-      "date": "fhgj",
-      "des": "fhgj",
-      "text": "fhgj",
-      "id": "14eff450-7b97-4aa2-bf53-05e8e7a1cbd5"
-    },
-    {
-      "title": "fhgj",
-      "date": "fhgj",
-      "des": "fhj",
-      "text": "fhj",
-      "id": "06cc1936-aadc-41fd-a172-cc4d1062a80b"
-    },
-    {
-      "title": "fhgj fhgjf",
-      "date": "hjfhj",
-      "des": "hfgj ",
-      "text": "fhgjhgfj ",
-      "id": "f0aca4cc-10f9-46c1-bace-5838f791d0e3"
-    },
-    {
-      "id": "7f154cce-7b48-4a0d-a0eb-14ddcf999cad",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720234834433
-    },
-    {
-      "title": "unsest",
-      "date": "1720236213454",
-      "des": "description",
-      "text": "write here",
-      "id": "752ba861-d4dd-4846-8d2a-deb071b10a8b"
-    },
-    {
-      "title": "unsest",
-      "date": "1720236222805",
-      "des": "description",
-      "text": "write here",
-      "id": "daee63fc-89bc-47f0-a138-3d7427ea84a1"
-    },
-    {
-      "id": "e69c0ad7-1c0a-4d61-8936-e488fa53f629",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720236268249
-    },
-    {
-      "id": "b46be396-76c0-4bad-a8db-019e69723b02",
-      "title": "unsest",
-      "des": "description",
-      "text": "write here",
-      "date": 1720236860401
-    },
-    {
-      "title": "unsest",
-      "date": "1720236872353",
-      "des": "description",
-      "text": "write here",
-      "id": "1cf0e0d2-3a50-4a1b-83ab-3287b00dbdac"
+      "title": "kl;asdf",
+      "date": "1720286782961",
+      "des": "Description",
+      "text": "write your notes here.",
+      "id": "89c6b1aa-2ac1-4920-ab4a-fe438f15fede"
     }
   ]
 }
